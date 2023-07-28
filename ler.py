@@ -25,7 +25,9 @@ for j in range(len(col)):
         biomet[col[j]] = biomet[col[j]].astype(float, errors = 'raise')
 
 # converter para formato datetime
-biomet["TIMESTAMP"]=pd.to_datetime(biomet["TIMESTAMP"], format="%Y/%m/%d %H:%M:%S")
+#biomet["TIMESTAMP"]=pd.to_datetime(biomet["TIMESTAMP"], format="%Y/%m/%d %H:%M:%S")
+biomet["TIMESTAMP"]=pd.to_datetime(biomet["TIMESTAMP"], format="%Y-%m-%d %H:%M:%S")
+
 
 
 biomet.index=biomet["TIMESTAMP"]
