@@ -11,9 +11,9 @@ import datetime
 import matplotlib.pyplot as plt
 import streamlit as st
 
-root_dir = "/home/lmc04/Downloads/K34/"
+#root_dir = "/home/lmc04/Downloads/K34/"
 
-biomet=pd.read_csv(root_dir+'TOA5_47272.Biomet.dat', 
+biomet=pd.read_csv('TOA5_47272.Biomet.dat', 
                   delimiter=',', skiprows=1, low_memory=False)
 
 biomet=biomet.drop(0)
