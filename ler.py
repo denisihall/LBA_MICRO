@@ -20,7 +20,7 @@ def seconds_to_datetime(seconds):
     datetime_output_gmt_minus_4 = datetime_output_gmt_minus_4.replace(year=2023)
     return datetime_output_gmt_minus_4.strftime('%Y-%m-%d %H:%M:%S')
 
-root_dir = "/home/lmc04/Downloads/K34/METEO_ASC/"
+root_dir = "METEO_ASC/"
 lista = sorted(glob.glob(root_dir + '*'))
 
 array_df=[]
