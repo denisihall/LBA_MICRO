@@ -14,9 +14,7 @@ import streamlit as st
 import os
 import glob
 import datetime
-import pandas_profiling
 import streamlit as st
-from streamlit_pandas_profiling import st_profile_report
 from datetime import datetime
 
 
