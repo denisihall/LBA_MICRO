@@ -21,11 +21,8 @@ from datetime import datetime
 
 
 root_dir = "METEO_ASC/"
-<<<<<<< HEAD
-lista = sorted(glob.glob(root_dir + '*'))
-=======
 lista = sorted(glob.glob(root_dir + '*.dat'))
->>>>>>> 72c3baf (Meu primeiro commit)
+
 
 array_df=[]
 for x in lista:
